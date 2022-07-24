@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    overflow: none;
+    padding: 0;
+}
+
+.container{
+    margin: 0rem 0rem;
+    padding: 1.3rem;
+}
+li{
+    list-style-type: none;
+    padding: 0rem 1.8rem;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    transition: 1s ease-in;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA77, #DBDBDB77, #F2F2F277, #ADA99677);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA77, #DBDBDB77, #F2F2F277, #ADA99677); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 15rem;
+
+
+}
+a.color-picker-logo-link{
+    display: flex;
+    flex-direction: row;
+}
+.color-picker-logo{
+    height:auto;
+    width: 15%;
+}
+.color-picker-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.color-picker-logo-tittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.color-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA44, #DBDBDB44, #F2F2F244, #ADA99644);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 15rem 35rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.random-color{
+    padding: .5rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.Color{
+    padding: .5rem 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+.pick-color{
+    padding: .5rem 1rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.is-active{
+    display: block;
+}
+.not-active{
+    display: none;
+}
